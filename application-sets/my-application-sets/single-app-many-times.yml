@@ -11,6 +11,7 @@ spec:
       - namespace: team-b
       - namespace: team-c
       - namespace: staging
+      - namespace: andy
   template:      
     metadata:
       name: '{{namespace}}-billing'
